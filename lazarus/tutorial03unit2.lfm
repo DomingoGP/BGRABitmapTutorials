@@ -1,0 +1,13 @@
+object Form2: TForm2
+  Left = 536
+  Height = 500
+  Top = 223
+  Width = 440
+  Caption = 'Tutorial 3 Form2'
+  OnCreate = FormCreate
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnPaint = FormPaint
+  LCLVersion = '2.1.0.0'
+end

@@ -1,0 +1,32 @@
+object Form1: TForm1
+  Left = 405
+  Height = 586
+  Top = 162
+  Width = 775
+  Caption = 'Tutorial 9'
+  ClientHeight = 586
+  ClientWidth = 775
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnMouseMove = FormMouseMove
+  OnPaint = FormPaint
+  LCLVersion = '2.1.0.0'
+  object ComboBox1: TComboBox
+    Left = 20
+    Height = 23
+    Top = 550
+    Width = 180
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'chocolate'
+      'stone'
+      'water'
+      'snow'
+    )
+    OnChange = ComboBox1Change
+    Style = csDropDownList
+    TabOrder = 0
+    Text = 'chocolate'
+  end
+end
